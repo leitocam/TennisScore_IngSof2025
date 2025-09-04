@@ -110,3 +110,16 @@ describe("TennisScorer", () => {
     expect(scorer.showScore()).toEqual("Advantage Player 1");
   });
 });
+//si el mismo jugador anota después de ventaja, gana el game.
+  it("Desde Advantage, Jugador 1 anota y gana el juego", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    expect(scorer.showScore()).toEqual("Player 1 wins");
+  });
