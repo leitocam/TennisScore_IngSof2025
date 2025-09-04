@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1605bd57b3008eea950f2e9f482edd0de216bb74",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T04:41:52.000Z",
       "message": "Jugador 1 gana Game",
-      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/1605bd57b3008eea950f2e9f482edd0de216bb74"
     },
     "stats": {
       "total": 20,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T04:50:16.000Z",
+      "message": "Jugador 2 hace punto",
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
