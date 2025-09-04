@@ -8,6 +8,8 @@ class TennisScorer {
       return "Player 1 wins";
     } else if (this.player2Points === 4) {
       return "Player 2 wins";
+    } else if (this.player1Points === 3 && this.player2Points === 3) {
+      return "Deuce";
     } else if (this.player1Points === 3 && this.player2Points === 0) {
       return "40 - Love";
     } else if (this.player1Points === 0 && this.player2Points === 3) {

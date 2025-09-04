@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "350ae6dc00c68094dad57c03b4291d1436b9091a",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T04:59:20.000Z",
       "message": "Empatados a 30",
-      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/350ae6dc00c68094dad57c03b4291d1436b9091a"
     },
     "stats": {
       "total": 50,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T11:24:06.000Z",
+      "message": "Iteración Duece",
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
