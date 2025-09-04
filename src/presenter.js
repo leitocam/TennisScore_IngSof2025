@@ -1,15 +1,42 @@
-import sumar from "./sumador";
+import TennisScorer from "./tennisScorer.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const player1Button = document.querySelector("#player1-button");
+const player2Button = document.querySelector("#player2-button");
+const resetButton = document.querySelector("#reset-button");
+const scoreDisplay = document.querySelector("#current-score");
 
-form.addEventListener("submit", (event) => {
+let scorer = new TennisScorer();
+
+function updateScore() {
+  const score = scorer.showScore();
+  scoreDisplay.innerHTML = score;
+  
+  // Check if game is won and auto-reset after 3 seconds
+  if (score.includes("wins")) {
+    setTimeout(() => {
+      resetGame();
+    }, 3000);
+  }
+}
+
+function resetGame() {
+  scorer = new TennisScorer();
+  updateScore();
+}
+
+player1Button.addEventListener("click", (event) => {
   event.preventDefault();
+  scorer.player1Scores();
+  updateScore();
+});
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+player2Button.addEventListener("click", (event) => {
+  event.preventDefault();
+  scorer.player2Scores();
+  updateScore();
+});
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+resetButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  resetGame();
 });

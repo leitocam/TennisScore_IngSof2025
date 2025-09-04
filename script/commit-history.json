@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f06997edb918083aa8ea2ee3478bd22caa23e359",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T11:42:55.000Z",
       "message": "Ganar luego de Advantage",
-      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/f06997edb918083aa8ea2ee3478bd22caa23e359"
     },
     "stats": {
       "total": 13,
       "additions": 13,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 93.33,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T11:47:53.000Z",
+      "message": "Configuración HTML y Presenter",
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 71,
+      "additions": 50,
+      "deletions": 21,
       "date": "2025-09-04"
     },
     "coverage": 93.33,
