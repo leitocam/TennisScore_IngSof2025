@@ -96,4 +96,17 @@ describe("TennisScorer", () => {
     scorer.player2Scores();
     expect(scorer.showScore()).toEqual("Deuce");
   });
+
+  // Qué probar: desde Deuce, uno anota → Advantage Player X.
+  it("Desde Deuce, Jugador 1 anota y tiene Advantage", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player1Scores();
+    expect(scorer.showScore()).toEqual("Advantage Player 1");
+  });
 });

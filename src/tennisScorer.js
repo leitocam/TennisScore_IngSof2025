@@ -4,11 +4,15 @@ class TennisScorer {
     this.player2Points = 0;
   }
   showScore() {
-    if (this.player1Points === 4) {
+    if (this.player1Points >= 4 && this.player1Points - this.player2Points >= 2) {
       return "Player 1 wins";
-    } else if (this.player2Points === 4) {
+    } else if (this.player2Points >= 4 && this.player2Points - this.player1Points >= 2) {
       return "Player 2 wins";
-    } else if (this.player1Points === 3 && this.player2Points === 3) {
+    } else if (this.player1Points >= 4 && this.player1Points - this.player2Points === 1) {
+      return "Advantage Player 1";
+    } else if (this.player2Points >= 4 && this.player2Points - this.player1Points === 1) {
+      return "Advantage Player 2";
+    } else if (this.player1Points >= 3 && this.player2Points >= 3 && this.player1Points === this.player2Points) {
       return "Deuce";
     } else if (this.player1Points === 3 && this.player2Points === 0) {
       return "40 - Love";

@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3427d187c5dd0f182ca85204423ce4cb8051b384",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T11:24:06.000Z",
       "message": "Iteración Duece",
-      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/3427d187c5dd0f182ca85204423ce4cb8051b384"
     },
     "stats": {
       "total": 15,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T11:32:21.000Z",
+      "message": "Iteración Ventaja Player 1",
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 21,
+      "deletions": 4,
+      "date": "2025-09-04"
+    },
+    "coverage": 96.88,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
