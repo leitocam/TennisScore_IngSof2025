@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b87c5b3ae704447070be3c7efcba1ca4b3f944cb",
     "author": "leitocam",
     "commit": {
       "date": "2025-09-04T11:32:21.000Z",
       "message": "Iteración Ventaja Player 1",
-      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/b87c5b3ae704447070be3c7efcba1ca4b3f944cb"
     },
     "stats": {
       "total": 25,
@@ -223,6 +223,25 @@
       "date": "2025-09-04"
     },
     "coverage": 96.88,
+    "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "leitocam",
+    "commit": {
+      "date": "2025-09-04T11:37:34.000Z",
+      "message": "Refactorización",
+      "url": "https://github.com/leitocam/TennisScore_IngSof2025/commit/HEAD"
+    },
+    "stats": {
+      "total": 71,
+      "additions": 48,
+      "deletions": 23,
+      "date": "2025-09-04"
+    },
+    "coverage": 93.33,
     "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
